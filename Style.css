@@ -1,0 +1,140 @@
+*,html,body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Information{
+    height: 40px;
+    font-size: 16px;
+}
+.Information-text{
+    margin-top: 15px;
+}
+/* Logo & Menu */
+.nav-item:hover{
+    border-bottom: 200px;
+   transform: scale(1);
+   -webkit-transform: scale(1);
+   -moz-transform: scale(1);
+   -ms-transform: scale(1);
+   -o-transform: scale(1);
+   transform-origin: bottom center;
+}
+/* Jumbotron */
+.jumbotron {
+    background-image: url(Assets/Images/Image-6.jpg);
+    background-size: cover;
+    height: 540px;
+    margin-top: 0px;
+}
+.button{
+    width:190px;
+    height: 50px;
+    background-color: white;
+    color: red;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 8px 0px;
+}
+.button:hover{
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+    transition: 0.3s;
+    transform: translateY(2px);
+    -webkit-transform: translateY(2px);
+    -moz-transform: translateY(2px);
+    -ms-transform: translateY(2px);
+    -o-transform: translateY(2px);
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.Hero-Tagline{
+   padding-top: 100px;
+}
+/* Home, content */
+.layanan-Info{
+    flex-direction: row;
+}
+  /* Home, Row2 */
+  .Rekomendasi-Info{
+    width: 74.1vw;
+}
+/* Fasilitas, Fasilitas */
+/* Detail, Detail */
+/* Booking, Booking */
+
+/* footer */
+footer{
+    height: 60px;
+    padding: 14.6px 0px;
+}
+.footer-Info{
+    font-size: 20px;    
+}
+.footer-Infos{
+    font-size: 20px;    
+}
+/* Responsive */
+/* Handphone */
+@media screen and (max-width: 412px) {
+    .Information{
+        height: 30px;
+        font-size: 9.5px;
+    }
+    .Information-text{
+        margin-top: 0px;
+    }
+    .Social-Information{
+        margin-bottom: 16px;
+    }
+    /* Jumbotron */
+    .Hero-Tagline{
+        padding-top: 0px;
+    }
+    /* content */
+    .layanan-Info{
+        flex-direction: column;
+    }
+    /* Row2 */
+    .Rekomendasi-Info{
+        margin: 0 auto;
+        min-width: fit-content;
+        padding-left: 2px;
+    }
+    /* footer */
+    .footer{
+        padding: 0px 0px;
+    }
+    .footer-Info{
+        display: flex;
+        justify-content: center;
+        justify-content: center;
+        font-size: 15px;
+        margin-top: -20px;
+    }
+    .footer-Infos{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10px;
+        justify-content: center;
+        font-size: 15px;
+    }
+}
+/* Tablet */
+@media (min-width:768px) and (max-width: 884px) {
+    .Information{
+        height: 30px;
+        font-size: 14px;
+    }
+    .Information-text{
+        margin-top: -6px;
+    }
+    .Social-Information{
+        margin-top: -4px;
+        margin-bottom: 16px;
+    }
+}
