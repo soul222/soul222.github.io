@@ -1,0 +1,121 @@
+*,html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.row{
+    background-image: url(/Assets/Images/Banner2.jpg);
+    background-size: 470px;
+    background-repeat: no-repeat;
+    min-height: 99.8vh;
+}
+.col{
+    margin: 2px auto;
+    width: auto;
+} 
+.Form-Group{
+    margin-left: 18cm;
+}
+.Form{
+    padding: 5px 10px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 6px 8px 10px solid black;
+    border: 1px solid white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.form-control{
+    width: 100px;
+}
+.btn{
+    border: 2px solid blue;
+    width: 380px;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+/* Responsive */
+@media screen and (max-width:414px) {
+    .row{
+        background-image: none;
+        background-size: none;
+        min-height: none;
+        border: none;
+    }
+    .col{
+        margin: 2px auto;
+        width: auto;
+    } 
+    .Form-Group{
+        margin-left: 0px;
+    }
+    .Form{
+            padding: 5px 10px;
+            width: auto;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+    }
+    .form-control{
+            width: auto;
+    }
+    .btn{
+            margin: opx auto;
+            border: 2px solid blue;
+            width: 320px;
+            text-align: center;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+    }
+}
+/* Tablet */
+@media (min-width:768px) and (max-width: 884px){
+    .row{
+        background-image: none;
+        background-size: none;
+        min-height: none;
+        border: none;
+    }
+    .col{
+        margin: 2px auto;
+        width: auto;
+    } 
+    .Form-Group{
+        margin-left: 0px;
+    }
+    .Form{
+            padding: 5px 10px;
+            width: auto;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+    }
+    .form-control{
+            width: auto;
+    }
+    .btn{
+            margin: opx auto;
+            border: 2px solid blue;
+            width: 500px;
+            text-align: center;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+    }
+}
